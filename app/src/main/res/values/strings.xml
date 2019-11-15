@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Breathe</string>
+    <string name="email_username">Email/Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password_caption">We will send you your current password right into your inbox.</string>
+    <string name="submit">Submit</string>
+    <string name="join_breathe">Join Breathe?</string>
+    <string name="name">Name</string>
+    <string name="user_name">Username</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="i_agree_terms">I agree to the </string>
+    <string name="terms_conditions">terms and conditions</string>
+    <string name="about_app">About the App</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="breathe_web_name">Breathe.lk</string>
+    <string name="report_problem">Report a Problem</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="save">Save</string>
+    <string name="age">Age</string>
+    <string name="daily_selfcare_points">Daily Self Care Points</string>
+    <string name="sign_out">Sign out</string>
+
+    <string name="victory_caption">Well done on taking such good care of your self today.</string>
+    <string name="victory_button">Check my Progress</string>
+
+    <string-array name="cmb_gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="sign_out_message_l1">Sign out?</string>
+    <string name="sign_out_message_l2">We\'re sorry to see you go.</string>
+    <string name="sign_out_message_l3">Hope to see you soon.</string>
+    <string name="sign_out_button_caption1">Cancel</string>
+
+
+    <string name="start_filling_your_heart">Start Filling-up your heart with a bit of Self-Care</string>
+    <string name="ready">Ready?</string>
+    <string name="iam_ready">I\'m Ready</string>
+
+    <string name="about_app_p1">We go about our days spending our energy on others, taking care of them and nourishing them, It\'s time you care for yourself too, in little ways throughout your day.</string>
+    <string name="about_app_p2">Let the Breathe app support you with your self-care because you deserve it!</string>
+    <string name="about_app_p3">How it Works:</string>
+    <string name="about_app_b1">* Set reminders for a bit of self-care throughout the day.</string>
+    <string name="about_app_b2">* Keep track of your self-care habits.</string>
+    <string name="about_app_b3">* In-app activities to cultivate gratitude.</string>
+    <string name="about_app_b4">* Expand your knowledge on self-care and Mental Health through in-app articles.</string>
+
+
+    <string name="title_activity__main_menu">Breathe</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Breathe</string>
+    <string name="nav_header_subtitle">breathe.lk</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_daily_self_care">Self Care</string>
+    <string name="menu_read_articles">Read Articles</string>
+    <string name="menu_settings">Settings</string>
+
+
+
+</resources>

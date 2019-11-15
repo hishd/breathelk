@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:background="@drawable/sign_out_dialog_inset"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgTopLogo"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logo_circle"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/txtL1"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="@string/sign_out_message_l1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imgTopLogo"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtL2"
+        android:textSize="16dp"
+        android:text="@string/sign_out_message_l2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtL1"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtL3"
+        android:textSize="16dp"
+        android:text="@string/sign_out_message_l3"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtL2"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtL3"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnSignOutCancel"
+            android:textColor="@android:color/white"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textAllCaps="false"
+            android:text="@string/sign_out_button_caption1"
+            android:background="@drawable/rounded_button_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_marginStart="10dp"
+            android:id="@+id/btnSignOutApp"
+            android:textColor="@android:color/white"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textAllCaps="false"
+            android:text="@string/sign_out"
+            android:background="@drawable/rounded_button_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
